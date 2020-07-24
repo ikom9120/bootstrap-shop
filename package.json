@@ -5,6 +5,8 @@
   "author": "ikom9120 <ikom9120@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
   }
 }
