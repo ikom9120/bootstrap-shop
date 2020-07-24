@@ -1,0 +1,21 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.heading {
+    color: #8B0000;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.heading a {
+    color: palevioletred;
+    font-size: 15px;
+}
+
+.name {
+    color: palevioletred;
+    font-size: 30px;
+}
