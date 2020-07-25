@@ -120,21 +120,36 @@
                         href="mailto:info@oriflame.ua?subject=Обращение с www.oriflame.ua">info@oriflame.ua</a> <br>
                     Мы ответим вам в течение 24 часов.<br><br>
                     <form method="post" action="input5.php">
-                        Ваше имя<br>
-                        <input type="text" name="name"><br><br>
-                        E-mail <br>
-                        <input type="text" name="email"><br><br>
-                        Номер телефона<br>
-                        <input type="number" name="phone"><br><br>
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupNameInput">Ваше имя</label>
+                                <input type="text" class="form-control" id="formGroupNameInput">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupEmailInput">Ел. почта</label>
+                                <input type="text" class="form-control" id="formGroupEmailInput">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupNamberInput">Номер телефона</label>
+                                <input type="number" class="form-control" id="formGroupNamberInput">
+                            </div>
+                        </form>
+
                         Тема обращения<br>
-                        <select name="subject">
-                            <option value="order">Информация о заказе</option>
-                            <option value="product" selected>Информация о продукте</option>
-                            <option value="comment">Отзыв или жалоба</option>
-                        </select> <br><br>
-                        Пожалуйста, введите Ваше сообщение<br>
-                        <textarea class="review" name="text"></textarea>
-                        <br> <input type="submit" value="Отправить"></form>
+                        <select class="custom-select" size="3">
+                            <option selected>Выберите тему</option>
+                            <option value="1">Информация о заказе</option>
+                            <option value="2">Информация о продукте</option>
+                            <option value="3">Отзыв или жалоба</option>
+                        </select><br><br>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Пожалуйста, введите Ваше сообщение</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                            <br>
+                            <button type="button" class="btn btn-outline-dark">Отправить</button>
+                        </div>
+                    </form>
                     <br>
                     <h6>ПОЗВОНИТЕ НАМ </h6>
                     <hr>

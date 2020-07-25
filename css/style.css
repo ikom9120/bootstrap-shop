@@ -52,6 +52,14 @@ h2 {
     padding: 20px;
 }
 
+.form-group {
+    width: 280px;
+}
+
+.custom-select {
+    width: 280px;
+}
+
 
 
 
