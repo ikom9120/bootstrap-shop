@@ -1,3 +1,13 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 30px;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -18,4 +28,14 @@
 .name {
     color: palevioletred;
     font-size: 30px;
+}
+
+h5 {
+    color: red;
+    font-size: 20px;
+}
+
+p {
+    color: darkred;
+    font-size: 15px;
 }
