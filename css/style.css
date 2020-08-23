@@ -87,3 +87,13 @@ h2 {
     max-height: 400px;
     max-width: 300px;
 }
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+h6 {
+    color: red;
+    font-size: 20px;
+}
