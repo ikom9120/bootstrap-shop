@@ -97,3 +97,12 @@ h6 {
     color: red;
     font-size: 20px;
 }
+
+.buy-text {
+    color: green;
+    font-size: 18px;
+}
+
+#buy-div {
+    height: 80px;
+}
